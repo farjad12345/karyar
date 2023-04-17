@@ -1,16 +1,13 @@
 {
   "files": {
     "main.css": "/karyar.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/karyar.github.io/static/js/main.204aa12a.js",
-    "static/js/787.a320f16a.chunk.js": "/karyar.github.io/static/js/787.a320f16a.chunk.js",
-    "static/media/logo.svg": "/karyar.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/karyar.github.io/static/js/main.44ed4edf.js",
     "index.html": "/karyar.github.io/index.html",
     "main.073c9b0a.css.map": "/karyar.github.io/static/css/main.073c9b0a.css.map",
-    "main.204aa12a.js.map": "/karyar.github.io/static/js/main.204aa12a.js.map",
-    "787.a320f16a.chunk.js.map": "/karyar.github.io/static/js/787.a320f16a.chunk.js.map"
+    "main.44ed4edf.js.map": "/karyar.github.io/static/js/main.44ed4edf.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.204aa12a.js"
+    "static/js/main.44ed4edf.js"
   ]
 }
