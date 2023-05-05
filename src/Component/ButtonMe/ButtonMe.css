@@ -1,0 +1,46 @@
+.log-in , .register , .lern-more {
+      font-family: IRANSans;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: var( --primary--06);
+  border: 1px solid var( --primary--06); ;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 158px;
+}
+
+.register{
+
+  border: 1px solid var( --primary--06); ;
+background: var(--primary--06);
+color: var(--white);
+
+
+
+}
+.lern-more{
+  border: 1px solid var(--primary--06);;
+color:  var(--primary--06);
+
+    background-color: transparent;
+
+
+}
+
+@media (max-width:425px) {
+ .register , .lern-more {
+width: 100%;
+  margin-bottom: 16px;
+
+ }
+ .register{
+  margin-bottom: 10px;
+ }
+
+}

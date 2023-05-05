@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-
+import ThemeProvider from 'react-bootstrap/ThemeProvider';
+import 'bootstrap/dist/css/bootstrap.rtl.min.css';
+import "./cssFiles/Fontiran.css";
+import "./cssFiles/MainStyle.css";
+import "./cssFiles/Reset.css";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
+    <ThemeProvider 
+      lang="fa"
+      breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+      minBreakpoint="xxs">
+
     <App />
-  </React.StrictMode>
+  </ThemeProvider>
+
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,14 @@
+@media (max-width :425px){
+    
+    .navbar-brand{
+      margin: 0 auto !important;
+    display: block;
+    width: 130px;
+}
+    button[aria-controls="basic-navbar-nav"]{
+              position: absolute;
+        right: 17px;
+        top: 17px;
+        
+    }
+}

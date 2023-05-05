@@ -1,0 +1,12 @@
+	
+/* این فایل وظیفه تعریف و بارگذاری فونت های «فونت ایران» را برعهده دارد */
+/* پیشنهاد می شود از روش قبل استفاده کنید */
+@font-face {
+font-family: IRANSans !important;
+font-style: normal;
+font-weight: bold;
+src: url('../Fonts/IRANSans-web.eot');
+src: url('../Fonts/IRANSans-web.ttf') 
+url('../Fonts/IRANSans-web.woff')
+url('../Fonts/IRANSans-web.woff2');
+}
