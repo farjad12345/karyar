@@ -1,18 +1,19 @@
 .section{
   width: 100%;
   height: calc(100vh - 75px );
-  background-color: #EDF7F2;
+  background-color: var(  --primary--00);
 }
 .hero{
   display: flex;
     height: calc(100vh - 75px );
-
+flex-direction: row;
 }
 .left-section{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+      padding-left: 1em;
 }
 .imagewrapper{
   width: 648px;

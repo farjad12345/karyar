@@ -1,0 +1,25 @@
+.section-three{
+  width: 100%;
+  background-color: var(--primary--00);
+  padding: 120px 0 ;
+}
+.heroSection{
+  display: flex;
+    height: calc(100vh - 75px );
+    display: flex;
+    justify-content: center;
+}
+.title{
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+width: 100%;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+

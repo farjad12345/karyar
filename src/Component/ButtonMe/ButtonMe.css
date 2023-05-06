@@ -42,5 +42,7 @@ width: 100%;
  .register{
   margin-bottom: 10px;
  }
-
+.log-in {
+  width: 100%;
+}
 }
