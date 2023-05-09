@@ -11,11 +11,11 @@ const datas = [
 ]
 export default function MainSection1() { 
     return (
-        <section className="section-three">
-            <div className="container container-mobile">
+        <section className="MainSection1">
                 <h2 className='title'>ویژگی‌های کاریار</h2>
+            <div className="container container-mobile">
                 <div className='cards' >
-                    {datas.map(data => <EachBox imageUrl={data.image} title={data.title} para={data.content} />)}
+                    {datas.map(data => <EachBox  imageUrl={data.image} title={data.title} para={data.content} />)}
       
             </div>
         </div>

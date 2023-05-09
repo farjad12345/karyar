@@ -1,11 +1,10 @@
-.section-three{
+.MainSection1{
   width: 100%;
   background-color: var(--primary--00);
   padding: 120px 0 ;
 }
 .heroSection{
   display: flex;
-    height: calc(100vh - 75px );
     display: flex;
     justify-content: center;
 }
@@ -16,10 +15,35 @@ line-height: 48px;
 letter-spacing: 0px;
 text-align: center;
 width: 100%;
+padding-bottom: 1em;
 }
 .cards{
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+@media (max-width:425px) {
+.section , .section2, .hero , .heroSection{
+  height: auto !important;
+  padding-bottom: 1em;
+}
+.cards{
+flex-wrap: wrap;}
+.title{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.MainSection1{
+
+  padding: 40px 0 ;
+}
+.title{
+
+padding-bottom: 24px;
+}
 }
 

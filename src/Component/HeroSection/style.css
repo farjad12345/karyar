@@ -102,4 +102,11 @@ text-align: right;
   height: 88px;
       margin: 16px 0;
 }
+.left-section .imagewrapper{
+width: 362.42px;
+height: 240.94px;
+}
+.section , .section2, .hero , .heroSection{
+  height: auto !important;
+}
 }
