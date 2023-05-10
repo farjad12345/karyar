@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/karyar.github.io/static/css/main.178c774b.css",
-    "main.js": "/karyar.github.io/static/js/main.5ed2508d.js",
+    "main.css": "/karyar.github.io/static/css/main.3c1f4a3c.css",
+    "main.js": "/karyar.github.io/static/js/main.885c28dd.js",
     "static/media/IRANSans-web.ttf": "/karyar.github.io/static/media/IRANSans-web.9ad1e88d2a69f7845668.ttf",
     "static/media/IRANSans-web.woff": "/karyar.github.io/static/media/IRANSans-web.ec7e9c88f5b3a1af43a7.woff",
     "static/media/IRANSans-web.eot": "/karyar.github.io/static/media/IRANSans-web.0a6e4bbf449cdb08b781.eot",
     "static/media/IRANSans-web.woff2": "/karyar.github.io/static/media/IRANSans-web.23cd9db191f0da3d474a.woff2",
     "index.html": "/karyar.github.io/index.html",
-    "main.178c774b.css.map": "/karyar.github.io/static/css/main.178c774b.css.map",
-    "main.5ed2508d.js.map": "/karyar.github.io/static/js/main.5ed2508d.js.map"
+    "main.3c1f4a3c.css.map": "/karyar.github.io/static/css/main.3c1f4a3c.css.map",
+    "main.885c28dd.js.map": "/karyar.github.io/static/js/main.885c28dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.178c774b.css",
-    "static/js/main.5ed2508d.js"
+    "static/css/main.3c1f4a3c.css",
+    "static/js/main.885c28dd.js"
   ]
 }
