@@ -1,0 +1,121 @@
+.auto-slider {
+    text-align: center;
+    overflow: hidden;
+    background-color: var(--primary--06);
+  }
+  
+  .auto-slider-wrapper {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .auto-slider-container {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 208px;
+    margin-bottom: 120px;
+
+  }
+  
+  .auto-slider-card {
+    flex: 0 0 100%;
+/* width: 424px; */
+padding: 32px;
+border-radius: 24px;
+background: var(--white);
+margin: 0 25px;
+  }
+  
+
+  
+  .auto-slider-prev , .auto-slider-next {
+    background: transparent;
+        cursor: pointer;
+ border: none;
+  }
+  
+  .wrapper-bottons{
+    top: 124px;
+    left: 64px;
+    position:absolute;
+    width: 150px;
+        display: flex;
+    justify-content: space-between;
+  }
+  .peoples{
+    display: flex;
+  }
+  .image-wapper{
+    width: 64px;
+    height: 64px;
+  }
+  .image{
+    width: 100%;
+    height: 100%;
+  }
+  .peoples-descriptions{
+font-family: IRANSans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: right;
+color: var(--natural--10);
+  }
+
+.title-person{
+  font-family: IRANSans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: right;
+color: var(--natural--06);
+margin-top: -1em;
+}
+.details-para{
+font-family: IRANSans;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: right;
+margin: 32px;
+color: var(--natural--10);
+}
+.end-of-cards{
+  display: flex;
+max-width: 360px;
+  margin: 32px;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+@media (max-width:425px) {
+  .auto-slider-container {
+justify-content: center;
+align-items: center;
+width: 296px;
+ }
+.details-para{
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: right;
+height: 200px;
+}
+.wrapper-bottons{
+    top: 90%;
+    left: 50%;
+    width: 120px;
+        display: flex;
+    justify-content: space-between;
+    transform: translatex( -50%);
+  }
+
+}
+

@@ -1,0 +1,41 @@
+.MainSection3{
+  width: 100%;
+  background-color: var(--primary--00);
+  padding: 120px 0 ;
+  height: 500px;
+  display: flex;
+}
+.MainSection3 h2{
+text-align: center;
+}
+.card-Edu-Courses{
+  width: 48%;
+border: 1px solid #B1B1B1;
+border-radius: 24px;
+height: 200px;
+}
+@media (max-width:425px) {
+.section , .section2, .hero , .heroSection{
+  height: auto !important;
+  padding-bottom: 1em;
+}
+.cards{
+flex-wrap: wrap;}
+.title{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.MainSection1{
+
+  padding: 40px 0 ;
+}
+.title{
+
+padding-bottom: 24px;
+}
+}
+

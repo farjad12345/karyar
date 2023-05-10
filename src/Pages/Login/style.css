@@ -1,0 +1,147 @@
+.logIn{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.logo-login{
+    position: absolute;
+        left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+}
+.title-login{
+ text-align: center;
+ padding: 0px 16px;
+   
+}
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 100vh;
+    background: var( --natural--01);
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+        height: 100vh;
+        flex-direction: column;
+            position: relative;
+
+}
+.name-text ,.pass-txt ,.remember-me{ 
+font-family: IRANSans;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: right;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-chkbox-txt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pass-txt ,.wrapper-chkbox-txt{
+margin-top:  9px;}
+.wrapper-chkbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.forgot-user-pass{
+    font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+color: var(  --natural--03);
+}
+ .input-text{
+padding: 4px 12px;
+border: 1px solid #E0E0E0;
+border-radius: 8px;
+background-color: var(--white);
+width: 328px;
+height: 40px;
+}
+.check{
+    background: var(  --natural--10);
+        margin-left: 0.25em;
+}
+.enter{
+    font-family: 'IRANSans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+border-radius: 8px;
+padding: 8px 12px;
+width: 328px;
+height: 40px;
+background-color: var(  --primary--06);
+border: none;
+color: var(--white);
+margin-top: 16px;
+}
+.two-para{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.no-member{
+    font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: var(--natural--10);
+display: inline-flex;
+}
+
+.guest{
+    font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+text-align: right;
+color: var(  --secondary--06);
+}
+.pay-attention{
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    color: var(--natural--06);
+    font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+width: 280px;
+display: flex;
+justify-content: space-between;
+}
+.pay-attention p{
+    display: inline;
+}
+@media (max-width:425px) {
+.left-side{
+    display: none;
+
+}
+.right-side{
+    width: 100%;
+}
+}
+@media (max-width:321px) {
+.right-side{
+    transform: scale(.9);
+}
+}

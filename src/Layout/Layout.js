@@ -5,7 +5,7 @@ import MyMain from './MyMain/MyMain.js'
 export default function Layout() {
     return (
       <div>
-        <MyHeader/>
+        <MyHeader />
         <MyMain/>
         </div>
   )

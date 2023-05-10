@@ -2,7 +2,7 @@ import React from 'react';
 import "./ButtonMe.css";
 function ButtonMe({className,text,link}) {
   return (
-      <a class={className} href={link}>
+      <a className={className} href={link}>
           {text}
       </a>)
 }
