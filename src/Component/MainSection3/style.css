@@ -1,41 +1,182 @@
 .MainSection3{
   width: 100%;
-  background-color: var(--primary--00);
+  background-color: var(--white);
   padding: 120px 0 ;
-  height: 500px;
-  display: flex;
+  height: auto;
+}
+.card{
+  border: 2px solid #0E994A !important;
+border-radius: 24px !important;
+position: relative;
 }
 .MainSection3 h2{
-text-align: center;
-}
-.card-Edu-Courses{
-  width: 48%;
-border: 1px solid #B1B1B1;
-border-radius: 24px;
-height: 200px;
-}
-@media (max-width:425px) {
-.section , .section2, .hero , .heroSection{
-  height: auto !important;
-  padding-bottom: 1em;
-}
-.cards{
-flex-wrap: wrap;}
-.title{
-font-size: 24px;
+  text-align: center;
+width: 100%;
+margin-bottom: 40px;
+font-family: IRANSans;
+font-size: 20px;
 font-weight: 700;
-line-height: 32px;
+line-height: 28px;
 letter-spacing: 0px;
-text-align: center;
+text-align: right;
 
 }
-.MainSection1{
-
-  padding: 40px 0 ;
-}
-.title{
-
-padding-bottom: 24px;
-}
+.my-card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.card-logo-title{
+  display: flex;
+  align-items: center;
+  line-height: 72px;
+  justify-content: center;
+}
+.card-logo-title .Image , .Card-Title{
+  margin: 10px 8px;
+  width: 72px;
+height: 72px;}
+ .Card-Title{
+display: flex;
+align-items: center;
+  line-height: 72px;
+}
+
+ .Card-Title{
+  width: 100%;
+  height: 72px !important;
+font-family: IRANSans;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: right;
+color: var(--Natural--10);
+ }
+ .detaels{
+font-family: IRANSans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: right;
+color: var(--Natural--10);
+margin: 40px 32px 10px;
+height: 84px;
+ }
+ .wrapper-courses{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+ }
+ .wrapper-courses  span{
+font-family: IRANSans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: right;
+margin-left: 4px;
+color: var(  --warning--06);
+background: var(  --warning--01);
+padding: 8px 12px;
+ }
+ .wrappe-footer-section{
+  display: flex;
+  justify-content: space-between;
+  margin: 38px 0 46px;
+ }
+  .wrappe-footer-section span{
+    font-family: IRANSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: var(--Natural--06);
+  }
+  .wrappe-footer-section ,.learn-more{
+    font-family: IRANSans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--primary--06);
+  }
+  .wrappe-footer-section a img{
+    margin: 0 12px 0 6px ;
+  }
+    .button{
+display: none;
+    
+  }
+@media (max-width:454px) {
+  .card {
+    border: 2px solid #0E994A !important;
+    border-radius: 24px !important;
+    max-width: 96%;}
+  
+  .card-logo-title{
+flex-direction: column;
+align-items: flex-start;
+  }
+  .MainSection3 h2{
+font-family: IRANSans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: right;
+
+  }
+  .detaels{
+font-family: IRANSans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: right;
+
+  }
+  .wrapper-courses{
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
+flex-wrap: wrap;
+margin-right: 10px;
+width: 100%;
+  }
+    .wrapper-courses span{
+      margin-bottom: 5px;
+    }
+ 
+   .detaels{
+height: auto;
+margin-bottom: 10px;
+   }
+
+  .wrappe-footer-section {
+flex-direction: column;
+font-family: IRANSans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: right;
+  }
+  .learn-more{
+    display: none;
+  }
+  .button{
+    margin-top: 20px ;
+
+    
+  }
+ .button .register{
+  margin-bottom: -35px;
+ }
+ .MainSection3:last-child{
+  padding-bottom: 60px;
+}
+}

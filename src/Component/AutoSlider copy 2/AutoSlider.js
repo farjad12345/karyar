@@ -53,10 +53,9 @@ function AutoSlider() {
     return (
         <div className="auto-slider">
             <div className="auto-slider-wrapper">
-                <div className="auto-slider-container" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
-                    {cards.map((card, index) => (
+                <div className="auto-slider-container" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>                    {cards.map((card, index) => (
                         <div className="auto-slider-card" key={index}>
-                            <img src={card.image} alt={card.title} />
+                            {/* <img src={card.image} alt={card.title} /> */}
                             <h2>{card.title}</h2>
                             <p>{card.description}</p>
                         </div>

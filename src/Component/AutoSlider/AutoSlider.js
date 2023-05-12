@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './AutoSlider.css';
 
 const cards = [
+
     {
         name: 'فاطمه خواجه',
         titlePerson:"مهارت آموز دوره دوم",
