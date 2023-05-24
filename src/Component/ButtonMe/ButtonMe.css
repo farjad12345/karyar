@@ -29,10 +29,21 @@ color: var(--white);
 color:  var(--primary--06);
 
     background-color: transparent;
+  }
+
+.log-in:hover , .register:hover , .lern-more:hover {
 
 
-}
+    transform: scale(1.01);
+    transition: all 0.5s;
+  }
+  .log-in:hover ,  .lern-more:hover {
 
+  color: var(--primary--06) !important;
+  }
+  .register:hover{
+color: var(--white) !important;
+  }
 @media (max-width:425px) {
  .register , .lern-more {
 width: 100%;
@@ -45,4 +56,5 @@ width: 100%;
 .log-in {
   width: 100%;
 }
+
 }

@@ -1,0 +1,23 @@
+.MainSection5{
+  width: 100%;
+  background: var(--white);
+padding: 124px 60px;  
+height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.MainSection5 .title-mainSection3{
+font-family: IRANSans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+color: var(--Natural--10);
+margin-bottom: 40px;
+}
+@media (max-width:454px) {
+
+
+}

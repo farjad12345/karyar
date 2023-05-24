@@ -4,10 +4,12 @@ import HeroSection from '../../Component/HeroSection';
 import MainSection0 from '../../Component/MainSection0'
 import MainSection1 from '../../Component/MainSection1'
 import MainSection2 from '../../Component/MainSection2'
-// import CarouselMy from '../../Component/AutoSlider/Carousel'
 import MainSection3 from '../../Component/MainSection3'
-import AutoSlider from "../../Component/AutoSlider/AutoSlider"
-import AutoSlider2 from "../../Component/AutoSlider copy/AutoSlider"
+import MainSection4 from '../../Component/MainSection4'
+import MainSection5 from '../../Component/MainSection5'
+import MainSection6 from '../../Component/MainSection6'
+import AutoSlider from "../../Component/AutoSlider/AutoSlider";
+import MySlider from "../../Component/MySlider"
 export default function MyMain() {
   return (
       <div>
@@ -16,9 +18,27 @@ export default function MyMain() {
       <MainSection1 />
       <MainSection2 />
       <AutoSlider />
-      {/* <AutoSlider2 /> */}
       <MainSection3/>
+      <MainSection4/>
+      <MainSection5/>
+      <MainSection6 />
+      <div>
+        <div className='MySlider-header container'>
+          <p>آخرین اخبار</p>
+          <a href='' className=''>
+            <p>
+            مشاهده همه
+            </p>
+            <p>
+              <img className='' src={process.env.PUBLIC_URL + '/images/arrow-left2.png'} alt="arrow-left2"  />
 
+            </p>
+            
+            
+          </a>
+        </div>
+      <MySlider/>
+      </div>
     </div>
   )
 }

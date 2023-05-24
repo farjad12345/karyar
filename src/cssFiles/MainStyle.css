@@ -130,9 +130,3 @@ font-size: 14px;
 line-height: 24px;
 color: var(  --natural--08) !important;
 }
-a:hover{
-    transform: scale(1.02);
-    filter: opacity(.9);
-    transition: all 0.5s;
-    color: var(  --error--01) !important;
-}

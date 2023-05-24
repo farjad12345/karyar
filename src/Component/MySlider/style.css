@@ -1,0 +1,100 @@
+
+.MySlider{ 
+width: 100% !important;
+  /* padding-top: 124px;
+padding-bottom: 212px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+z-index: 1000000;
+overflow-x:auto;
+}
+.slider-card{
+    width: 428px !important;
+height: 482px !important;
+border: 1px solid var(--primary--06);
+border-radius: 12px;
+}
+#main-slider-container{
+    height: 100% !important;
+
+}
+.MySlider-header{
+margin-top: 144px;
+margin-bottom: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.headertextWraper{
+    display: flex;
+    justify-content: space-between;
+margin: 24px;    
+}
+.textWraper{
+    display: flex;
+}
+.textWraper p{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+margin-right:10px ;
+text-align: center;
+
+/* Natural/06 */
+
+color: #626362;
+
+}
+.link{
+    display: inline-flex;
+padding: 6px 10px;
+width: 73px;
+height: 28px;
+
+background: #FBE5D5;
+border-radius: 8px;
+}
+.link p{
+    
+    width: 53px;
+    height: 16px;
+    color: #EB7B2F;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+
+}
+.imageCalender{
+    width: 16px;
+height: 16px;
+}
+ .slider-card-description{
+    font-weight: 500;
+font-size: 16px !important;
+line-height: 24px;
+opacity: 1 !important;
+
+text-align: right;
+width: 100%;
+margin-left: 24px;
+margin-right: 24px;
+
+color: #212121;
+margin-bottom: 24px;
+}
+
+@media  (max-width:425px){
+   .slider-card{
+width: 328px;
+height: 393px;}
+}

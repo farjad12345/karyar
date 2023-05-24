@@ -44,7 +44,7 @@ const CardArray = [
     course3: "تحلیل داده پیشرفته"
   }
 ]
-export default function index() {
+export default function MainSection3() {
   return (
     <div className='MainSection3 container container-mobile'>
       <h2 className='title-mainSection3'>دوره‌های آموزشی کاریار</h2>
